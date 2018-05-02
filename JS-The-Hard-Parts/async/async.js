@@ -1,4 +1,10 @@
-// source: https://jsbin.com/pawayikozo/edit?js,console,output
+// original source: https://jsbin.com/pawayikozo/edit?js,console,output
+/*
+NOTE: I couldn't get challenges 7, 8, 9 to work locally due to a CORS
+request issue, but they may work fine in the original source. I substitued
+the original API in challenge 7 in this file for one from the AWDBC course's
+XHRHTTPRequest practice section
+*/
 
 // CHALLENGE 1 //
 
@@ -25,13 +31,13 @@ Next, modify your code so that the "Interval Hello!" messages will automatically
 Then, modify your code again so that the "Interval Hello!" messages will automatically stop after 10 seconds without use of the clearAllIntervals function, and using clearInterval only once. Perform research if you are unsure how to do this.
 */
 
-// included code
+// ===== included code =====
 function clearAllIntervals() {
 	for (let i = 0; i < 1000; i++) {
 		clearInterval(i);
 	}
 }
-// =============
+// =========================
 
 
 // CHALLENGE 3 //
@@ -143,52 +149,27 @@ Invoke the ajaxSimulate function with an id of 1 and the storeData function as t
 Without changing anything else, copy-paste the console.log statement somewhere where it will log with the info we need.
 */
 
-// included code
+// ===== included code =====
 let dataReceived;
 
 function ajaxSimulate(id, callback) {
 	let database = ['Aaron', 'Barbara', 'Chris'];
 	setTimeout(() => callback(database[id]), 0);
 }
-// =============
+// =========================
 
-function storeData(data) {
-	console.log(data); // 2) setTimeout fn is run here and prints after console.log that runs in global execution context
-	dataReceived = data;
-}
+// function storeData(data) {
+// 	console.log(data); // 2) setTimeout fn is run here and prints after console.log that runs in global execution context
+// 	dataReceived = data;
+// }
 
-ajaxSimulate(1, storeData);
-console.log(dataReceived); // 1) dataReceived is still undefined because setTimeout callback fn hasn't run yet
-
-
-// CHALLENGE 7 //
-
-/*
-Perform a GET request to the Bandsintown API (https://app.swaggerhub.com/apis/Bandsintown/PublicAPI/3.0.0) to search for your favorite band. For the 'app_id', use the string 'jshp'.
-
-Then in the returned JSON, find the URL for the image associated with the band and display it in the DOM.
-
-Make sure to use 'https' for JSBIN to allow the request. There is a div with the ID 'ch2' for you to target. If you want, you can view this div by opening the HTML pane, by clicking the HTML button at the top.
-*/
+// ajaxSimulate(1, storeData);
+// console.log(dataReceived); // 1) dataReceived is still undefined because setTimeout callback fn hasn't run yet
 
 
-// CHALLENGE 8 //
+
+// CHALLENGE 7
 
 /*
-Perform a GET request to the Bandsintown API Bandsintown API (https://app.swaggerhub.com/apis/Bandsintown/PublicAPI/3.0.0) to search and find all events associated with your favorite artist. For the 'app_id', use the string 'jshp'.
-
-Then use the returned JSON object to display all the names of the venues hosting the events in a list in the DOM.
-
-Make sure to use 'https' for JSBIN to allow the request. There is a div with the ID 'ch3' for you to target.
-*/
-
-
-// CHALLENGE 9 //
-
-/*
-Perform a GET request to the Bandsintown API Bandsintown API (https://app.swaggerhub.com/apis/Bandsintown/PublicAPI/3.0.0) to search and find all events associated with your favorite artist. For the 'app_id', use the string 'jshp'.
-
-This time, use the returned JSON object to select ONLY the events that will happen within the United States, and render them to the DOM.
-
-Make sure to use 'https' for JSBIN to allow the request. There is a div with the ID 'ch4' for you to target.
+Perform a GET request to get a random dog picture (https://dog.ceo/api/breeds/image/random) and in the returned JSON, find the URL for the image and display it in the DOM.
 */
