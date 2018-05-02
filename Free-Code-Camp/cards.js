@@ -32,4 +32,3 @@ console.log(cc(3)); // 2 Bet
 console.log(cc(7)); // 2 Bet
 console.log(cc('K')); // 1 Bet
 console.log(cc('A')); // 0 Hold
-
