@@ -68,14 +68,10 @@ function forEach(array, callback) {
 
 
 
-//----------------------------
-// EXTENSION
-//----------------------------
-
-// EXTENSION 1 //
+// CHALLENGE 5 //
 
 /*
-In the first part of the extension, you're going to rebuild map as mapWith. This time you're going to use forEach inside of mapWith instead of using a for loop.
+In the first part of this challenge, you're going to rebuild map as mapWith. This time you're going to use forEach inside of mapWith instead of using a for loop.
 */
 
 function mapWith(array, callback) {
@@ -84,7 +80,7 @@ function mapWith(array, callback) {
 
 
 
-// EXTENSION 2 //
+// CHALLENGE 6 //
 
 /*
 The function reduce takes an array and reduces the elements to a single value. For example it can sum all the numbers, multiply them, or any operation that you can put into a function.
@@ -102,7 +98,7 @@ function reduce(array, callback, initialValue) {
 
 
 
-// EXTENSION 3 //
+// CHALLENGE 7 //
 
 /*
 Construct a function intersection that compares input arrays and returns a new array with elements found in all of the inputs. BONUS: Use reduce!
@@ -117,7 +113,7 @@ function intersection(arrays) {
 
 
 
-// EXTENSION 4 //
+// CHALLENGE 8 //
 
 /*
 Construct a function union that compares input arrays and returns a new array that contains all elements. If there are duplicate elements, only add it once to the new array. Preserve the order of the elements starting from the first element of the first input array. BONUS: Use reduce!
@@ -132,7 +128,7 @@ function union(arrays) {
 
 
 
-// EXTENSION 5 //
+// CHALLENGE 9 //
 
 /*
 Construct a function objOfMatches that accepts two arrays and a callback. objOfMatches will build an object and return it. To build the object, objOfMatches will test each element of the first array using the callback to see if the output matches the corresponding element (by index) of the second array. If there is a match, the element from the first array becomes a key in an object, and the element from the second array becomes the corresponding value.
@@ -147,7 +143,7 @@ function objOfMatches(array1, array2, callback) {
 
 
 
-// EXTENSION 6 //
+// CHALLENGE 10 //
 
 /*
 Construct a function multiMap that will accept two arrays: an array of values and an array of callbacks. multiMap will return an object whose keys match the elements in the array of values. The corresponding values that are assigned to the keys will be arrays consisting of outputs from the array of callbacks, where the input to each callback is the key.

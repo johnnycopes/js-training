@@ -13,14 +13,14 @@ Add an instance method called fullName that returns the firstName and lastName p
 */
 
 // var person = new Person("Elie", "Schoppik", "purple", 34)
-// person.fullName() // "Elie Schoppik"
+// console.log(person.fullName()); // "Elie Schoppik"
 
 
 
 // CHALLENGE 3 //
 
 /*
-Add a property on the object created from the PAerson function called family which is an empty array
+Add a property on the object created from the Person function called family which is an empty array
 */
 
 
@@ -33,12 +33,12 @@ Add a instance method called addToFamily which adds an object constructed from t
 
 // var person = new Person("Elie", "Schoppik", "purple", 34)
 // var anotherPerson = new Person()
-// person.addToFamily(anotherPerson); // 1
-// person.addToFamily(anotherPerson); // 1
-// person.family.length // 1
+// console.log(person.addToFamily(anotherPerson)); // 1
+// console.log(person.addToFamily(anotherPerson)); // 1
+// console.log(person.family.length); // 1
 
-// person.addToFamily("test"); // 1
-// person.addToFamily({}); // 1
-// person.addToFamily([]); // 1
-// person.addToFamily(false); // 1
-// person.family.length // 1
+// console.log(person.addToFamily("test")); // 1
+// console.log(person.addToFamily({})); // 1
+// console.log(person.addToFamily([])); // 1
+// console.log(person.addToFamily(false)); // 1
+// console.log(person.family.length); // 1

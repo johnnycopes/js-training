@@ -1,11 +1,3 @@
-// original source: https://jsbin.com/pawayikozo/edit?js,console,output
-/*
-NOTE: I couldn't get challenges 7, 8, 9 to work locally due to a CORS
-request issue, but they may work fine in the original source. I substitued
-the original API in challenge 7 in this file for one from the AWDBC course's
-XHRHTTPRequest practice section
-*/
-
 // CHALLENGE 1 //
 
 /*
@@ -31,13 +23,12 @@ Next, modify your code so that the "Interval Hello!" messages will automatically
 Then, modify your code again so that the "Interval Hello!" messages will automatically stop after 10 seconds without use of the clearAllIntervals function, and using clearInterval only once. Perform research if you are unsure how to do this.
 */
 
-// ===== included code =====
 function clearAllIntervals() {
 	for (let i = 0; i < 1000; i++) {
 		clearInterval(i);
 	}
 }
-// =========================
+
 
 
 // CHALLENGE 3 //
@@ -50,30 +41,6 @@ Write function sayHowdy that will log "Howdy" to the console. Then test your eve
 Now, modify your everyXsecsForYsecs function so it does not use setInterval, but still keeps the same functionality.
 */
 
-// V1 (with setInterval)
-function everyXsecsForYsecs(fn, intervalTime, totalTime) {
-	const interval = setInterval(sayHowdy, intervalTime);
-	setTimeout(() => clearInterval(interval), totalTime);
-}
-
-// V2 (without setInterval -- recursive call to setTimeout)
-function everyXsecsForYsecs(fn, intervalTime, totalTime) {
-	let time = intervalTime;
-	function callFn() {
-		sayHowdy(time);
-		if (time < totalTime) {
-			setTimeout(callFn, intervalTime);
-			time += intervalTime;
-		}
-	}
-	setTimeout(callFn, intervalTime);
-}
-
-function sayHowdy() {
-	console.log('Howdy');
-}
-
-// everyXsecsForYsecs(sayHowdy, 1000, 5000);
 
 
 // CHALLENGE 4 //
@@ -88,19 +55,6 @@ Write a function, delayLog, that takes as input a delayTime and an index, i. Whe
 Putting it all together, run the delayLog function on each item of the delays array using the forEach function you created.
 */
 
-function forEach(arr, cb) {
-	for (let i = 0; i < arr.length; i++) {
-		cb(arr[i], i);
-	}
-}
-
-const delays = [2000, 5000, 0, 3500];
-
-function delayLog(delayTime, i) {
-	setTimeout(() => console.log(`printing element ${i} with value ${delayTime}`), delayTime);
-}
-
-// forEach(delays, delayLog);
 
 
 // CHALLENGE 5 //
@@ -113,26 +67,6 @@ Add a click event listener to button #1 above (it has an id of "activate"). On c
 Refresh and try to change the background color by only clicking button #2. What needs to happen for the button to work?
 */
 
-const body = document.querySelector('body');
-const button1 = document.querySelector('#activate');
-const button2 = document.querySelector('#color');
-
-function changeColor() {
-	const tan = 'rgb(255, 238, 221)';
-	const blue = 'rgb(221, 238, 255)';
-
-	let bgColor = body.style.backgroundColor;
-	bgColor = bgColor !== blue ? blue : tan;
-	body.style.backgroundColor = bgColor;
-}
-
-button1.addEventListener('click', () => {
-	console.log('clicked #1');
-	button2.addEventListener('click', () => {
-		console.log('clicked #2');
-		changeColor();
-	});
-});
 
 
 // CHALLENGE 6 //
@@ -149,22 +83,12 @@ Invoke the ajaxSimulate function with an id of 1 and the storeData function as t
 Without changing anything else, copy-paste the console.log statement somewhere where it will log with the info we need.
 */
 
-// ===== included code =====
 let dataReceived;
 
 function ajaxSimulate(id, callback) {
 	let database = ['Aaron', 'Barbara', 'Chris'];
 	setTimeout(() => callback(database[id]), 0);
 }
-// =========================
-
-// function storeData(data) {
-// 	console.log(data); // 2) setTimeout fn is run here and prints after console.log that runs in global execution context
-// 	dataReceived = data;
-// }
-
-// ajaxSimulate(1, storeData);
-// console.log(dataReceived); // 1) dataReceived is still undefined because setTimeout callback fn hasn't run yet
 
 
 
@@ -172,4 +96,9 @@ function ajaxSimulate(id, callback) {
 
 /*
 Perform a GET request to get a random dog picture (https://dog.ceo/api/breeds/image/random) and in the returned JSON, find the URL for the image and display it in the DOM.
+
+NOTE: I couldn't get challenges 7, 8, 9 to work locally due to a CORS
+request issue, but they may work fine in the original JSBin: https://jsbin.com/pawayikozo/edit?js,console,output
+I've substituted the original API in challenge 7 in this file for one from the AWDBC course's
+XHRHTTPRequest practice section to offer practice retrieving data from a web API
 */

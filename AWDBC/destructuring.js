@@ -4,7 +4,7 @@
 Write a function called displayStudentInfo which accepts an object and returns the string "Your full name is" concatenated with the value of the first key and a space and then the value of the last key. See if you can destructure this object inside of the function.
 */
 
-// displayStudentInfo({ first: 'Elie', last: 'Schoppik' }) // 'Your full name is Elie Schoppik')
+// console.log(displayStudentInfo({ first: 'Elie', last: 'Schoppik' })); // 'Your full name is Elie Schoppik')
 
 
 
@@ -14,7 +14,7 @@ Write a function called displayStudentInfo which accepts an object and returns t
 Write a function called printFullName which accepts an object and returns the string "Your full name is" concatenated with the value of the first key and a space and then the value of the last key. See if you can destructure this object DIRECTLY from the parameters. The output of the printFullName function should be the exact same as the displayStudentInfo function.
 */
 
-// printFullName({ first: 'Elie', last: 'Schoppik' }) // 'Your full name is Elie Schoppik'
+// console.log(printFullName({ first: 'Elie', last: 'Schoppik' })); // 'Your full name is Elie Schoppik'
 
 
 
@@ -29,10 +29,10 @@ If the value of likesJavaScript is false the function should return the string '
 If both the value of likesJavaScript and likesES2015 are false, the function should return the string 'The student does not like much...'
 */
 
-// createStudent() // 'The student likes JavaScript and ES2015')
-// createStudent({ likesES2015: false }) // 'The student likes JavaScript!')
-// createStudent({ likesJavaScript: false }) // 'The student likes ES2015!')
-// createStudent({ likesJavaScript: false, likesES2015: false }) // 'The student does not like much...')
+// console.log(createStudent()); // 'The student likes JavaScript and ES2015')
+// console.log(createStudent({ likesES2015: false })); // 'The student likes JavaScript!')
+// console.log(createStudent({ likesJavaScript: false })); // 'The student likes ES2015!')
+// console.log(createStudent({ likesJavaScript: false, likesES2015: false })); // 'The student does not like much...')
 
 
 
@@ -42,7 +42,7 @@ If both the value of likesJavaScript and likesES2015 are false, the function sho
 Write a function called reverseArray which accepts an array and returns the array with all values reversed. See if you can do this without creating a new array!
 */
 
-// reverseArray([1, 2, 3, 4, 5]) // [5,4,3,2,1]
-// reverseArray([1, 2]) // [2,1]
-// reverseArray([]) // []
-// reverseArray([1, 2, 3, 4, 5, 6, 7, 8, 9, 10]) // [10,9,8,7,6,5,4,3,2,1
+// console.log(reverseArray([1, 2, 3, 4, 5])); // [5,4,3,2,1]
+// console.log(reverseArray([1, 2])); // [2,1]
+// console.log(reverseArray([])); // []
+// console.log(reverseArray([1, 2, 3, 4, 5, 6, 7, 8, 9, 10])); // [10,9,8,7,6,5,4,3,2,1

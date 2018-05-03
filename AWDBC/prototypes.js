@@ -28,10 +28,10 @@ Add a property on the object created from the Person function called family whic
 // }
 
 // var addOnlyThreeTimes = invokeMax(add, 3);
-// addOnlyThreeTimes(1, 2) // 3
-// addOnlyThreeTimes(2, 2) // 4
-// addOnlyThreeTimes(1, 2) // 3
-// addOnlyThreeTimes(1, 2) // "Maxed Out!"
+// console.log(addOnlyThreeTimes(1, 2)); // 3
+// console.log(addOnlyThreeTimes(2, 2)); // 4
+// console.log(addOnlyThreeTimes(1, 2)); // 3
+// console.log(addOnlyThreeTimes(1, 2)); // "Maxed Out!"
 
 
 
@@ -42,15 +42,15 @@ Add a function on the Person.prototype called addToFamily which adds an object c
 */
 
 // var anotherPerson = new Person()
-// person.addToFamily(anotherPerson); // 1
-// person.addToFamily(anotherPerson); // 1
-// person.family.length // 1
+// console.log(person.addToFamily(anotherPerson)); // 1
+// console.log(person.addToFamily(anotherPerson)); // 1
+// console.log(person.family.length); // 1
 
-// person.addToFamily("test"); // 1
-// person.addToFamily({}); // 1
-// person.addToFamily([]); // 1
-// person.addToFamily(false); // 1
-// person.family.length // 1
+// console.log(person.addToFamily("test")); // 1
+// console.log(person.addToFamily({})); // 1
+// console.log(person.addToFamily([])); // 1
+// console.log(person.addToFamily(false)); // 1
+// console.log(person.family.length); // 1
 
 
 
@@ -68,5 +68,5 @@ Implement your own version of Array.prototype.map. The function should accept a 
 Implement a function called reverse that reverses a string and place it on the String.prototype
 */
 
-// "test".reverse() // "tset"
-// "tacocat".reverse() // "tacocat"
+// console.log("test".reverse()); // "tset"
+// console.log("tacocat".reverse()); // "tacocat"

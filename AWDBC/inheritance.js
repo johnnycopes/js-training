@@ -21,7 +21,7 @@ Add a function to the Vehicle prototype called toString which returns the string
 */
 
 // var vehicle = new Vehicle("Tractor", "John Deere", 1999)
-// vehicle.toString() // 'The make, model, and year are Tractor John Deere 1999'
+// console.log(vehicle.toString()); // 'The make, model, and year are Tractor John Deere 1999'
 
 
 
@@ -31,7 +31,12 @@ Add a function to the Vehicle prototype called toString which returns the string
 Create a constructor function for a Car. Each object created from the Car function should also have a make, model, and year and a property called numWheels which should be 4. The Car prototype should inherit all of the methods from the Vehicle prototype
 */
 
-// extractFullName([{ first: 'Elie', last: "Schoppik" }, { first: 'Tim', last: "Garcia" }, { first: 'Matt', last: "Lane" }, { first: 'Colt', last: "Steele" }])
+// console.log(extractFullName([
+// 	{ first: 'Elie', last: "Schoppik" },
+// 	{ first: 'Tim', last: "Garcia" },
+// 	{ first: 'Matt', last: "Lane" },
+// 	{ first: 'Colt', last: "Steele" }
+// ]));
 // should return: ['Elie Schoppik', 'Tim Garcia', 'Matt Lane', 'Colt Steele']
 
 

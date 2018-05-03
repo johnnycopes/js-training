@@ -4,9 +4,9 @@
 Write a function called specialMultiply which accepts two parameters. If the function is passed both parameters, it should return the product of the two. If the function is only passed one parameter - it should return a function which can later be passed another parameter to return the product. You will have to use closure and arguments to solve this.
 */
 
-// specialMultiply(3, 4); // 12
-// specialMultiply(3)(4); // 12
-// specialMultiply(3); // function(){}....
+// console.log(specialMultiply(3, 4)); // 12
+// console.log(specialMultiply(3)(4)); // 12
+// console.log(specialMultiply(3)); // function(){}....
 
 
 
@@ -21,14 +21,14 @@ You will have to make use of closure to solve this problem.
 */
 
 // var game = guessingGame(5)
-// game(1) // "You're too low!"
-// game(8) // "You're too high!"
-// game(5) // "You're too low!"
-// game(7) // "You got it!"
-// game(1) // "You are all done playing!"
+// console.log(game(1)); // "You're too low!"
+// console.log(game(8)); // "You're too high!"
+// console.log(game(5)); // "You're too low!"
+// console.log(game(7)); // "You got it!"
+// console.log(game(1)); // "You are all done playing!"
 
 // var game2 = guessingGame(3)
-// game2(5) // "You're too low!"
-// game2(3) // "You're too low!"
-// game2(1) // "No more guesses the answer was 0"
-// game2(1) // "You are all done playing!"
+// console.log(game2(5)); // "You're too low!"
+// console.log(game2(3)); // "You're too low!"
+// console.log(game2(1)); // "No more guesses the answer was 0"
+// console.log(game2(1)); // "You are all done playing!"
