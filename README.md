@@ -34,3 +34,13 @@ The files are organized by source not topic, so the best way to find practice pr
 ## Can I contribute to this?
 
 For sure! These are the resources that I've found to be most useful in my own learning, but if have any challenges that helped you strengthen your programming chops, please feel free to message me or submit a PR.
+
+## Do you know of any other resources to bolster my JS skills?
+
+Besides what's listed above, I would also highly recommend:
+
+- __[Mozilla Developer Network](https://developer.mozilla.org/en-US/)__ : also known as MDN, this page offers precise documentation on how JavaScript and other web technologies work along with a myriad of tutorials
+
+- __[You Don't Know JS](https://github.com/getify/You-Dont-Know-JS)__ : a series of in-depth books on the core mechanisms of JavaScript (free to read online) by Kyle Simpson
+
+- __[Syntax](https://syntax.fm/)__ : a free weekly podcast about all things web development by Scott Tolinski and Wes Bos

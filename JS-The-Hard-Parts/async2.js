@@ -1,3 +1,5 @@
+// Asynchronicity pt. 2
+
 // CHALLENGE 1 //
 
 /*
@@ -23,11 +25,11 @@ Next, modify your code so that the "Interval Hello!" messages will automatically
 Then, modify your code again so that the "Interval Hello!" messages will automatically stop after 10 seconds without use of the clearAllIntervals function, and using clearInterval only once. Perform research if you are unsure how to do this.
 */
 
-function clearAllIntervals() {
-	for (let i = 0; i < 1000; i++) {
-		clearInterval(i);
-	}
-}
+// function clearAllIntervals() {
+// 	for (let i = 0; i < 1000; i++) {
+// 		clearInterval(i);
+// 	}
+// }
 
 
 
