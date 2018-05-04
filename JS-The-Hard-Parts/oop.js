@@ -1,4 +1,3 @@
-// Type JavaScript here and click "Run Code" or press Ctrl + s
 // Object-Oriented JavaScript
 
 /****************************************************************
