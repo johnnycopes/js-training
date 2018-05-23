@@ -1,3 +1,5 @@
+'use strict';
+
 /*
 Sum All Numbers in a Range
 

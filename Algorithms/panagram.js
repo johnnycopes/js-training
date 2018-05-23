@@ -1,5 +1,9 @@
+'use strict';
+
 /*
-A panagram is a sentence or phrase that contains every letter of the english alphabet at least once. Write an algorithm that takes a string and checks whether a string is a pangram.
+A panagram is a sentence or phrase that contains every letter of the English 
+alphabet at least once. Write an algorithm that takes a string and checks 
+whether a string is a pangram.
 */
 
 const example1 = "How razorback jumping frogs can level six piqued gymnasts";

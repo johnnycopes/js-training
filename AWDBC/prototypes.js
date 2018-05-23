@@ -1,7 +1,10 @@
+'use strict';
+
 // CHALLENGE 1 //
 
 /*
-Create a constructor function for a Person. Each person should have a firstName, lastName, favoriteColor, favoriteNumber)
+Create a constructor function for a Person. Each person should have a firstName, 
+lastName, favoriteColor, favoriteNumber)
 */
 
 
@@ -9,7 +12,8 @@ Create a constructor function for a Person. Each person should have a firstName,
 // CHALLENGE 2 //
 
 /*
-Add a function on the Person.prototype called fullName that returns the firstName and lastName property of an object created by the Person constructor concatenated together
+Add a function on the Person.prototype called fullName that returns the firstName 
+and lastName property of an object created by the Person constructor concatenated together
 */
 
 // var person = new Person("Elie", "Schoppik", "purple", 34)
@@ -20,7 +24,8 @@ Add a function on the Person.prototype called fullName that returns the firstNam
 // CHALLENGE 3 //
 
 /*
-Add a property on the object created from the Person function called family which is an empty array
+Add a property on the object created from the Person function called 
+family which is an empty array
 */
 
 // function add(a, b) {
@@ -38,7 +43,12 @@ Add a property on the object created from the Person function called family whic
 // CHALLENGE 4 //
 
 /*
-Add a function on the Person.prototype called addToFamily which adds an object constructed from the Person constructor to the family array. To make sure that the object you are adding is an object construced from the Person constructor (HINT - take a look at the instanceof keyword). Make sure that your family array does not include duplicates! This method should return the length of the family array.
+Add a function on the Person.prototype called addToFamily which adds an 
+object constructed from the Person constructor to the family array. To make 
+sure that the object you are adding is an object construced from the Person 
+constructor (HINT - take a look at the instanceof keyword). Make sure that 
+your family array does not include duplicates! This method should 
+return the length of the family array.
 */
 
 // var anotherPerson = new Person()
@@ -57,7 +67,9 @@ Add a function on the Person.prototype called addToFamily which adds an object c
 // CHALLENGE 5 //
 
 /*
-Implement your own version of Array.prototype.map. The function should accept a callback and return a new array with the result of the callback for each value in the array.
+Implement your own version of Array.prototype.map. The function should accept 
+a callback and return a new array with the result of the callback for 
+each value in the array.
 */
 
 
@@ -65,7 +77,8 @@ Implement your own version of Array.prototype.map. The function should accept a 
 // CHALLENGE 6 //
 
 /*
-Implement a function called reverse that reverses a string and place it on the String.prototype
+Implement a function called reverse that reverses a string and place 
+it on the String.prototype
 */
 
 // console.log("test".reverse()); // "tset"

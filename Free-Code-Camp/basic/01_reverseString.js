@@ -1,3 +1,5 @@
+'use strict';
+
 /*
 Reverse the provided string.
 

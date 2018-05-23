@@ -1,5 +1,8 @@
+'use strict';
+
 /*
-A Fibonacci series is a series of numbers where each number is derived by summing the previous two numbers together.
+A Fibonacci series is a series of numbers where each number is 
+derived by summing the previous two numbers together.
 
 i.e. 0,1,2,3,5,8 ...
 

@@ -1,7 +1,11 @@
+'use strict';
+
 // CHALLENGE 1 //
 
 /*
-In your constructor method, you should assign two properties for each object created from the MessageBoard class. The first should be a property called messages which is an empty Map, and the second is a property called id which has a value of 1
+In your constructor method, you should assign two properties for each object 
+created from the MessageBoard class. The first should be a property called messages 
+which is an empty Map, and the second is a property called id which has a value of 1
 */
 
 // var m = new MessageBoard
@@ -16,7 +20,11 @@ In your constructor method, you should assign two properties for each object cre
 // CHALLENGE 2 //
 
 /*
-Add a method called addMessage which accepts a string. The function should add a key and value to the messages map with a key of whatever the value of this.id is and a value of whatever the string is that is passed to the function. The function should return the object created from the class so that the method can be chained. (HINT - to implement the last part, make sure to return this).
+Add a method called addMessage which accepts a string. The function should add 
+a key and value to the messages map with a key of whatever the value of this.id 
+is and a value of whatever the string is that is passed to the function. The 
+function should return the object created from the class so that the method can 
+be chained. (HINT - to implement the last part, make sure to return this).
 */
 
 // var m = new MessageBoard
@@ -31,7 +39,9 @@ Add a method called addMessage which accepts a string. The function should add a
 // CHALLENGE 3 //
 
 /*
-Add a method called findMessageById which accepts a number and returns the message in the messages map with the same key as the number passed to the function. If the key is not found in the messages map, the function should return undefined
+Add a method called findMessageById which accepts a number and returns the message 
+in the messages map with the same key as the number passed to the function. 
+If the key is not found in the messages map, the function should return undefined
 */
 
 // var m = new MessageBoard;
@@ -49,7 +59,8 @@ Add a method called findMessageById which accepts a number and returns the messa
 // CHALLENGE 4 //
 
 /*
-Add a method called removeMessage which accepts a number and removes a message in the messages map with a key of the number passed to the function
+Add a method called removeMessage which accepts a number and removes a message 
+in the messages map with a key of the number passed to the function
 */
 
 // var m = new MessageBoard;
@@ -94,7 +105,8 @@ Add a method called messagesToArray which returns an array of all of the values 
 // CHALLENGE 7 //
 
 /*
-Write a function called uniqueValues which accepts an array and returns the number of unique values in the array
+Write a function called uniqueValues which accepts an array and returns 
+the number of unique values in the array
 */
 
 // console.log(uniqueValues([1, 1, 2, 2, 2, 3, 3, 3, 3, 4, 4, 4, 5, 5, 6])); // 6
@@ -104,7 +116,8 @@ Write a function called uniqueValues which accepts an array and returns the numb
 // CHALLENGE 8 //
 
 /*
-Write a function called hasDuplicates which accepts an array and returns true if there are duplicate values in the array, otherwise it should return false.
+Write a function called hasDuplicates which accepts an array and returns true 
+if there are duplicate values in the array, otherwise it should return false.
 */
 
 // console.log(hasDuplicates([1, 1, 2, 2, 2, 3, 3, 3, 3, 4, 4, 4, 5, 5, 6])); // true
@@ -116,7 +129,8 @@ Write a function called hasDuplicates which accepts an array and returns true if
 // CHALLENGE 9 //
 
 /*
-Write a function called countPairs which accepts an array and a number. The function should return the number of pairs (two numbers) that sum up to the number passed to the function.
+Write a function called countPairs which accepts an array and a number. The function 
+should return the number of pairs (two numbers) that sum up to the number passed to the function.
 */
 
 // console.log(countPairs([8, 2, 6, 4, 10, 0], 10)); // 3

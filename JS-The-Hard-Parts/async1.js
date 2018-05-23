@@ -1,3 +1,5 @@
+'use strict';
+
 // Asynchronicity pt. 1
 
 // CHALLENGE 1 //

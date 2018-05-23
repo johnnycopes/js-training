@@ -1,3 +1,5 @@
+'use strict';
+
 /*
 Validate US Telephone Numbers
 

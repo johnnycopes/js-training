@@ -1,7 +1,10 @@
+'use strict';
+
 // CHALLENGE 1 //
 
 /*
-Write a function called copyObject, which accepts one parameter, an object. The function should return a shallow copy of the object
+Write a function called copyObject, which accepts one parameter, an object. 
+The function should return a shallow copy of the object
 */
 
 // var o = {name: 'Elie'}
@@ -15,7 +18,8 @@ Write a function called copyObject, which accepts one parameter, an object. The 
 // CHALLENGE 2 //
 
 /*
-Write a function called checkIfFinite which accepts one parameter and returns true if that parameter is a finite number
+Write a function called checkIfFinite which accepts one parameter and returns 
+true if that parameter is a finite number
 */
 
 // console.log(checkIfFinite(4)); // true
@@ -28,7 +32,8 @@ Write a function called checkIfFinite which accepts one parameter and returns tr
 // CHALLENGE 3 //
 
 /*
-Write a function called areAllNumbersFinite which accepts an array and returns true if every single value in the array is a finite number, otherwise return false
+Write a function called areAllNumbersFinite which accepts an array and returns true 
+if every single value in the array is a finite number, otherwise return false
 */
 
 // var finiteNums = [4,-3,2.2]
@@ -41,7 +46,8 @@ Write a function called areAllNumbersFinite which accepts an array and returns t
 // CHALLENGE 4 //
 
 /*
-Write a function called convertArrayLikeObject which accepts a single parameter, an array like object. The function should return the array like object converted to an array
+Write a function called convertArrayLikeObject which accepts a single parameter, 
+an array like object. The function should return the array like object converted to an array
 */
 
 // var divs = document.getElementsByTagName('div')
@@ -55,7 +61,8 @@ Write a function called convertArrayLikeObject which accepts a single parameter,
 // CHALLENGE 5 //
 
 /*
-Write a function called displayEvenArguments which accepts a variable number of arguments and returns a new array with all of the arguments that are even numbers
+Write a function called displayEvenArguments which accepts a variable number of 
+arguments and returns a new array with all of the arguments that are even numbers
 */
 
 // console.log(displayEvenArguments(1,2,3,4,5,6)); // [2,4,6]

@@ -1,7 +1,10 @@
+'use strict';
+
 // CHALLENGE 1 //
 
 /*
-Write a function called filterByValue which accepts an array of objects and a key and returns a new array with all the objects that contain that key
+Write a function called filterByValue which accepts an array of objects and a key 
+and returns a new array with all the objects that contain that key
 */
 
 // console.log(filterByValue([
@@ -16,7 +19,9 @@ Write a function called filterByValue which accepts an array of objects and a ke
 // CHALLENGE 2 //
 
 /*
-Write a function called find which accepts an array and a value and returns the first element in the array that has the same value as the second parameter or undefined if the value is not found in the array
+Write a function called find which accepts an array and a value and returns the 
+first element in the array that has the same value as the second parameter or 
+undefined if the value is not found in the array
 */
 
 // console.log(find([1, 2, 3, 4, 5], 3)); // 3
@@ -27,7 +32,8 @@ Write a function called find which accepts an array and a value and returns the 
 // CHALLENGE 3 //
 
 /*
-Write a function called findInObj which accepts an array of objects, a key, and some value to search for that returns the first found value in the array
+Write a function called findInObj which accepts an array of objects, a key, and 
+some value to search for that returns the first found value in the array
 */
 
 // console.log(findInObj([
@@ -43,7 +49,9 @@ Write a function called findInObj which accepts an array of objects, a key, and 
 // CHALLENGE 4 //
 
 /*
-Write a function called removeVowels which accepts a string and returns a new string with all of the vowels (both uppercased and lowercased) removed. Every character in the new string should be lowercased
+Write a function called removeVowels which accepts a string and returns a new 
+string with all of the vowels (both uppercased and lowercased) removed. Every 
+character in the new string should be lowercased
 */
 
 // console.log(removeVowels('Elie')); // ('l')
@@ -55,7 +63,9 @@ Write a function called removeVowels which accepts a string and returns a new st
 // CHALLENGE 5 //
 
 /*
-Write a function called doubleOddNumbers which accepts an array and returns a new array with all of the odd numbers doubled (HINT - you can use map and filter to double and then filter the odd numbers)
+Write a function called doubleOddNumbers which accepts an array and returns a 
+new array with all of the odd numbers doubled (HINT - you can use map and filter 
+to double and then filter the odd numbers)
 */
 
 // console.log(doubleOddNumbers([1, 2, 3, 4, 5])); // [2,6,10]

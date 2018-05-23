@@ -1,3 +1,5 @@
+'use strict';
+
 // Get your shorts on - this is an array workout!
 // ## Array Cardio Day 1 💪
 

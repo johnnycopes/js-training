@@ -1,3 +1,5 @@
+'use strict';
+
 // Closures, Scope, and Execution Context
 
 // CHALLENGE 1 //
