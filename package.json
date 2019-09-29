@@ -1,0 +1,23 @@
+{
+  "name": "js-training",
+  "version": "1.0.0",
+  "description": "A curated collection of JS practice problems",
+  "main": "sandbox.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "parcel index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/johnnycopes/js-training.git"
+  },
+  "author": "johnnycopes",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/johnnycopes/js-training/issues"
+  },
+  "homepage": "https://github.com/johnnycopes/js-training#readme",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.3"
+  }
+}
