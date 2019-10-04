@@ -6,7 +6,7 @@ Note that a subarray must consist of consecutive elements from the original arra
 example below, [100, 200, 300] is a subarray of the original array, but [100, 300] is not.
 */
 
-function maxSubArraySum() {
+function maxSubArraySum(arr, num) {
 
 }
 

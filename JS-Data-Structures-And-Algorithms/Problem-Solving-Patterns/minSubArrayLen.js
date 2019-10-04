@@ -7,7 +7,7 @@ is greater than or equal to the integer passed to the function. If there isn't o
 0 instead.
 */
 
-function minSubArrayLen(arr, sum) {
+function minSubArrayLen(arr, int) {
 
 }
 
